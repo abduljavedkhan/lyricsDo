@@ -1,0 +1,114 @@
+.header{
+    width: 100%; height: 35vh;
+    text-align: center;
+    text-align-last: left;
+    text-overflow: none;
+    background-image: url(assets/hero-background.jpg);
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    margin-bottom: 10px;
+    padding-bottom: 05px;
+    padding-top: 05px; 
+}
+
+#songsearch{
+    margin-left: 25px;
+    border-color: ivory;
+}
+
+
+.lname{
+    margin-left: 25px;
+}
+
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    margin: -36px 0 0 -76px;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+   
+  }
+  
+
+.header h1{
+    color: slategrey;
+    padding-top: 05px;
+text-align: center;
+text-transform: initial;
+}
+
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+.button4 {border-radius: 12px;}
+
+.song-data{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,0);
+
+}
+
+.song-data li{
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: overline;
+    text-decoration-color: rgb(12, 147, 100);
+    position: relative;
+}
+
+
+.song-data li div{
+    float: left;
+}
+
+.song-data li span{
+    float: right;
+    background-color: #008CBA;
+    border: 0;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
+
+.result{
+    color: slategrey;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+ }
+
+ .listing{
+
+    width: 40%;
+    margin: 25px auto;
+}

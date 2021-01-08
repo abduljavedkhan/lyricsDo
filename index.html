@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Lyrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="lname" >LyricsDo</h1>
+        <form id="searchForm">
+            <input type="search" id="songsearch" name="songsearch" placeholder="Enter artist or song name..." />
+            <button type="submit" class="button button4">Search</button>
+        </form>
+    </header>
+    <div id="loader"></div>
+    <div id="listing">
+    <a href="javascript:prevPage()" class="button button4" id="btn_prev">Prev</a>
+    <a href="javascript:nextPage()" class="button button4" id="btn_next">Next</a>
+</div>
+    <section class="result" id="result">
+        <h4>Song List will be displayed here </h4>
+    </section>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
