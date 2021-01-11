@@ -123,10 +123,10 @@ text-transform: initial;
 }
 
 @media only screen and (max-width: 750px) {
-    .header p  {
+    .header .searchForm {
       width: 60%;
     }
-    .result p {
+    .result {
         width: 80%;
     }
 }
