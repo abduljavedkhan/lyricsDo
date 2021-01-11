@@ -112,3 +112,39 @@ text-transform: initial;
     width: 40%;
     margin: 25px auto;
 }
+
+@media only screen and (max-width: 1000px) {
+    .header input  {
+      width: 40%;
+    }
+    .result ul.song-data {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .header p  {
+      width: 60%;
+    }
+    .result p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header  {
+      width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    input#songsearch {
+      width: 70%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .header  {
+      width: 90%;
+    }
+}
