@@ -34,9 +34,18 @@
     border: 8px solid #f3f3f3;
     border-radius: 50%;
     border-top: 8px solid #3498db;
+	animation-name: spin;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
    
   }
-  
+@keyframes spin{
+	to{
+		transform: rotate(360deg);
+	}
+}  
+
 
 .header h1{
     color: slategrey;
@@ -111,40 +120,4 @@ text-transform: initial;
 
     width: 40%;
     margin: 25px auto;
-}
-
-@media only screen and (max-width: 1000px) {
-    .header input  {
-      width: 40%;
-    }
-    .result ul.song-data {
-        width: 70%;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .header .searchForm {
-      width: 60%;
-    }
-    .result {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .header  {
-      width: 80%;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    input#songsearch {
-      width: 70%;
-    }
-}
-
-@media only screen and (max-width: 350px) {
-    .header  {
-      width: 90%;
-    }
 }
