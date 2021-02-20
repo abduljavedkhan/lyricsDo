@@ -4,9 +4,9 @@
     text-align-last: left;
     text-overflow: none;
     background-image: url(assets/hero-background.jpg);
-    background-size: cover;
-    background-color: transparent;
-    background-position: center;
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
     margin-bottom: 10px;
     padding-bottom: 05px;
     padding-top: 05px; 
@@ -120,4 +120,30 @@ text-transform: initial;
 
     width: 40%;
     margin: 25px auto;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .searchForm {
+      width: 80%;
+    }
+
+    .result {
+        width: 50%;
+      }
+}
+
+@media only screen and (max-width: 400px) {
+    input#songsearch {
+      width: 70%;
+    }
+    .result {
+        width: 50%;
+      }
+}
+
+@media only screen and (max-width: 350px) {
+    .searchForm  {
+      width: 90%;
+    }
 }
